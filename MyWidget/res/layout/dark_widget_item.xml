@@ -13,8 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <string name="empty_view_text">No cities found...</string>
-    <string name="toast_format_string">%1$s says Hi!</string>
-    <string name="item_format_string">%1$d\u00B0 in %2$s</string>
-</resources>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_item"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:paddingLeft="25dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/item_bg_dark"
+    android:textColor="#e5e5e1"
+    android:textSize="24sp" />

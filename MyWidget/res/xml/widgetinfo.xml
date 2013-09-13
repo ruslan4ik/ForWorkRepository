@@ -13,8 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <string name="empty_view_text">No cities found...</string>
-    <string name="toast_format_string">%1$s says Hi!</string>
-    <string name="item_format_string">%1$d\u00B0 in %2$s</string>
-</resources>
+<appwidget-provider
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:minWidth="222dip"
+  android:minHeight="222dip"
+  android:updatePeriodMillis="1800000"
+  android:initialLayout="@layout/widget_layout"
+  android:previewImage="@drawable/preview">
+</appwidget-provider>
